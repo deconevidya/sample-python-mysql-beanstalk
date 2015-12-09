@@ -3,6 +3,7 @@ language: python
 python:
   - 2.7
   
+  
 services:
   - mysql
   
@@ -37,4 +38,4 @@ script:
 #after_success:
 #  - eb init && eb depdrydock/u14pytpls:prod
 cache: true
-build_image: drydock/u14pytpls:prod
+#build_image: drydock/u14pytpls:prod
