@@ -32,4 +32,5 @@ script:
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
 #after_success:
-#  - eb init && eb deploy
+#  - eb init && eb depdrydock/u14pytpls:prod
+cache: true
