@@ -31,5 +31,5 @@ script:
   - which python && coverage run --branch test.py
   - which python && coverage xml -o shippable/codecoverage/coverage.xml test.py
 
-after_success:
-  - eb init && eb deploy
+#after_success:
+#  - eb init && eb deploy
