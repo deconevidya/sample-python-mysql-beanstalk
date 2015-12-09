@@ -34,3 +34,4 @@ script:
 #after_success:
 #  - eb init && eb depdrydock/u14pytpls:prod
 cache: true
+build_image: drydock/u14pytpls:prod
